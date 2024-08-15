@@ -1,0 +1,299 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 31,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "canFreezeColumn": true,
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "title",
+    "author",
+    "year",
+    "EditActions1"
+  ],
+  "columnUpdatedAt": 1723704742617,
+  "columnWidthMap": {},
+  "defaultPageSize": 0,
+  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.title.computedValue"
+    },
+    {
+      "key": "primaryColumns.author.computedValue"
+    },
+    {
+      "key": "primaryColumns.year.computedValue"
+    },
+    {
+      "key": "primaryColumns.EditActions1.saveButtonColor"
+    },
+    {
+      "key": "primaryColumns.EditActions1.saveBorderRadius"
+    },
+    {
+      "key": "primaryColumns.EditActions1.discardBorderRadius"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isSaveDisabled"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isDiscardDisabled"
+    },
+    {
+      "key": "primaryColumns.year.validation.min"
+    },
+    {
+      "key": "primaryColumns.year.validation.max"
+    },
+    {
+      "key": "primaryColumns.year.validation.regex"
+    },
+    {
+      "key": "primaryColumns.year.validation.isColumnEditableCellValid"
+    },
+    {
+      "key": "primaryColumns.year.validation.errorMessage"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isSaveDisabled"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isDiscardDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableClientSideSearch": true,
+  "flexVerticalAlignment": "start",
+  "horizontalAlignment": "LEFT",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": true,
+  "isVisibleFilters": true,
+  "isVisiblePagination": true,
+  "isVisibleSearch": true,
+  "key": "4mfti9fdwt",
+  "label": "Data",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 31,
+  "mobileLeftColumn": 16,
+  "mobileRightColumn": 50,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 11.21875,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "primaryColumns": {
+    "EditActions1": {
+      "alias": "EditActions1",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "editActions",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "discardActionLabel": "Discard",
+      "discardBorderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "discardButtonColor": "#F22B2B",
+      "discardButtonVariant": "TERTIARY",
+      "discardIconAlign": "left",
+      "enableFilter": true,
+      "enableSort": true,
+      "id": "EditActions1",
+      "index": 3,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardDisabled": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( !Table1.updatedRowIndices.includes(currentIndex)))}}",
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveDisabled": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( !Table1.updatedRowIndices.includes(currentIndex)))}}",
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Save / Discard",
+      "notation": "standard",
+      "originalId": "EditActions1",
+      "saveActionLabel": "Save",
+      "saveBorderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "saveButtonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "saveIconAlign": "left",
+      "sticky": "right",
+      "thousandSeparator": true,
+      "validation": {},
+      "width": 150
+    },
+    "author": {
+      "alias": "author",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"author\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "author",
+      "index": 1,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "author",
+      "notation": "standard",
+      "originalId": "author",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "title": {
+      "alias": "title",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"title\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "title",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "title",
+      "notation": "standard",
+      "originalId": "title",
+      "sticky": "left",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "year": {
+      "alias": "year",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "number",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"year\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "year",
+      "index": 2,
+      "isCellEditable": true,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": true,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "year",
+      "notation": "standard",
+      "originalId": "year",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {
+        "errorMessage": "{{\n  (\n    (isNewRow, currentIndex, currentRow) => (\nJSObject1.myFun1(currentRow)\n    ))\n    (\n      Table1.isAddRowInProgress,\n      Table1.isAddRowInProgress ? -1 : Table1.editableCell.index,\n      Table1.isAddRowInProgress ? Table1.newRow : (Table1.processedTableData[Table1.editableCell.__originalIndex__] ||\n        Object.keys(Table1.processedTableData[0])\n          .filter(key => [\"__originalIndex__\", \"__primaryKey__\"].indexOf(key) === -1)\n          .reduce((prev, curr) => {\n            prev[curr] = \"\";\n            return prev;\n          }, {}))\n    )\n  }}\n  ",
+        "isColumnEditableCellValid": "{{\n  (\n    (editedValue, currentRow, currentIndex, isNewRow) => (\nJSObject1.myFun1(currentRow)\n    ))\n    (\n      (Table1.isAddRowInProgress ? Table1.newRow.year : Table1.columnEditableCellValue.year) || \"\",\n      Table1.isAddRowInProgress ? Table1.newRow : (Table1.processedTableData[Table1.editableCell.__originalIndex__] ||\n        Object.keys(Table1.processedTableData[0])\n          .filter(key => [\"__originalIndex__\", \"__primaryKey__\"].indexOf(key) === -1)\n          .reduce((prev, curr) => {\n            prev[curr] = \"\";\n            return prev;\n          }, {})),\n      Table1.isAddRowInProgress ? -1 : Table1.editableCell.index,\n      Table1.isAddRowInProgress\n    )\n  }}\n  ",
+        "max": "{{\n  (\n    (isNewRow, currentIndex, currentRow) => (\nJSObject1.myFun1(currentRow)\n    ))\n    (\n      Table1.isAddRowInProgress,\n      Table1.isAddRowInProgress ? -1 : Table1.editableCell.index,\n      Table1.isAddRowInProgress ? Table1.newRow : (Table1.processedTableData[Table1.editableCell.__originalIndex__] ||\n        Object.keys(Table1.processedTableData[0])\n          .filter(key => [\"__originalIndex__\", \"__primaryKey__\"].indexOf(key) === -1)\n          .reduce((prev, curr) => {\n            prev[curr] = \"\";\n            return prev;\n          }, {}))\n    )\n  }}\n  ",
+        "min": "{{\n  (\n    (isNewRow, currentIndex, currentRow) => (\nJSObject1.myFun1(currentRow)\n    ))\n    (\n      Table1.isAddRowInProgress,\n      Table1.isAddRowInProgress ? -1 : Table1.editableCell.index,\n      Table1.isAddRowInProgress ? Table1.newRow : (Table1.processedTableData[Table1.editableCell.__originalIndex__] ||\n        Object.keys(Table1.processedTableData[0])\n          .filter(key => [\"__originalIndex__\", \"__primaryKey__\"].indexOf(key) === -1)\n          .reduce((prev, curr) => {\n            prev[curr] = \"\";\n            return prev;\n          }, {}))\n    )\n  }}\n  ",
+        "regex": "{{\n  (\n    (isNewRow, currentIndex, currentRow) => (\nJSObject1.myFun1(currentRow)\n    ))\n    (\n      Table1.isAddRowInProgress,\n      Table1.isAddRowInProgress ? -1 : Table1.editableCell.index,\n      Table1.isAddRowInProgress ? Table1.newRow : (Table1.processedTableData[Table1.editableCell.__originalIndex__] ||\n        Object.keys(Table1.processedTableData[0])\n          .filter(key => [\"__originalIndex__\", \"__primaryKey__\"].indexOf(key) === -1)\n          .reduce((prev, curr) => {\n            prev[curr] = \"\";\n            return prev;\n          }, {}))\n    )\n  }}\n  "
+      },
+      "verticalAlignment": "CENTER",
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 37,
+  "searchKey": "",
+  "showInlineEditingOptionDropdown": true,
+  "tableData": "{{TableData.myVar1}}",
+  "textSize": "0.875rem",
+  "topRow": 3,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET_V2",
+  "version": 2,
+  "verticalAlignment": "CENTER",
+  "widgetId": "cieqrg51ln",
+  "widgetName": "Table1"
+}

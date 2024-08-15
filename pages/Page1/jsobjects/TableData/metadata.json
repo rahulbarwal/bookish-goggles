@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "66af817f8b10c14bceb53d21_be532beb-0508-45fc-bedc-7c9919a7ad26",
+  "id": "Page1_TableData",
+  "unpublishedCollection": {
+    "name": "TableData",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[{\n  title: \"To Kill a Mockingbird\",\n  author: \"Harper Lee\",\n  year: 1960\n}, {\n  title: \"Title 1984\",\n  author: \"George Orwell\",\n  year: 1949\n}, {\n  title: \"The Great Gatsby\",\n  author: \"F. Scott Fitzgerald\",\n  year: 1925\n}, {\n  title: \"The Catcher in the Rye\",\n  author: \"J.D. Salinger\",\n  year: 1951\n}, {\n  title: \"Pride and Prejudice\",\n  author: \"Jane Austen\",\n  year: 1813\n}, {\n  title: \"Moby Dick\",\n  author: \"Herman Melville\",\n  year: 1851\n}, {\n  title: \"War and Peace\",\n  author: \"Leo Tolstoy\",\n  year: 1869\n}, {\n  title: \"The Odyssey\",\n  author: \"Homer\",\n  year: -800\n}, {\n  title: \"Brave New World\",\n  author: \"Aldous Huxley\",\n  year: 1932\n}, {\n  title: \"The Picture of Dorian Gray\",\n  author: \"Oscar Wilde\",\n  year: 1890\n}, {\n  title: \"The Hobbit\",\n  author: \"J.R.R. Tolkien\",\n  year: 1937\n}, {\n  title: \"Fahrenheit 451\",\n  author: \"Ray Bradbury\",\n  year: 1953\n}, {\n  title: \"Jane Eyre\",\n  author: \"Charlotte Brontë\",\n  year: 1847\n}, {\n  title: \"The Grapes of Wrath\",\n  author: \"John Steinbeck\",\n  year: 1939\n}, {\n  title: \"Wuthering Heights\",\n  author: \"Emily Brontë\",\n  year: 1847\n}, {\n  title: \"The Lord of the Rings\",\n  author: \"J.R.R. Tolkien\",\n  year: 1954\n}, {\n  title: \"The Chronicles of Narnia\",\n  author: \"C.S. Lewis\",\n  year: 1950\n}, {\n  title: \"The Alchemist\",\n  author: \"Paulo Coelho\",\n  year: 1988\n}, {\n  title: \"The Kite Runner\",\n  author: \"Khaled Hosseini\",\n  year: 2003\n}, {\n  title: \"Life of Pi\",\n  author: \"Yann Martel\",\n  year: 2001\n}, {\n  title: \"The Fault in Our Stars\",\n  author: \"John Green\",\n  year: 2012\n}]"
+      }
+    ]
+  }
+}
